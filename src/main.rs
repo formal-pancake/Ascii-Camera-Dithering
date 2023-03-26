@@ -175,7 +175,10 @@ fn run_app<B: Backend>(
                                     RequestedFormatType::AbsoluteHighestFrameRate,
                                 ),
                             ) {
-                                Ok(cam) => app.camera = Some(cam),
+                                Ok(mut cam) => {
+                                    cam.open_stream().expect("uh error");
+                                    app.camera = Some(cam);
+                                }
                                 Err(_) => {
                                     // todo: handle this error better (it's ugly)
                                     let index = app.menu.selected().unwrap();
