@@ -2,11 +2,11 @@
 name = "ascii-camera-dithering"
 version = "0.1.0"
 edition = "2021"
-authors = ["***REMOVED***"]
+authors = ["spookicazt"]
 description = """
 A rust application made using the tui and image crate that takes your camera feed and transforms it into ascii art in real time.
 """
-repository = "https://github.com/***REMOVED***/Ascii-Camera-Dithering"
+repository = "https://github.com/spookicazt/Ascii-Camera-Dithering"
 exclude = [".github"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
