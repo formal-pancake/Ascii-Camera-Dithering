@@ -11,7 +11,7 @@ Ascii-Camera-Dithering is a rust application made using the [tui](https://docs.r
 ### Clone the repository
 
 ```sh
-> git clone https://github.com/spookicazt/Ascii-Camera-Dithering.git
+> git clone https://github.com/formal-pancake/Ascii-Camera-Dithering.git
 ```
 
 ### Launch application
@@ -22,7 +22,7 @@ Ascii-Camera-Dithering is a rust application made using the [tui](https://docs.r
 
 Or alternatively, download the executable:
 
-https://github.com/spookicazt/Ascii-Camera-Dithering/releases
+https://github.com/formal-pancake/Ascii-Camera-Dithering/releases
 
 # Controls
  - 'q' - quit the application
